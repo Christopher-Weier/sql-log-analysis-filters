@@ -1,15 +1,11 @@
 # 🗄️ SQL Log Analysis Using Filters  
 **Focus:** SQL · Log Analysis · Security Investigation
 
-> **Disclaimer**  
-> This project is a **sanitized, educational example** demonstrating how SQL filters can be used to investigate suspicious authentication activity.  
-> All data, usernames, and identifiers have been generalized.
-
 ---
 
 ## 📌 Project Description
 A spike in login attempts outside normal business hours triggered a security investigation.  
-SQL queries were used to analyze authentication logs to determine **when the attempts occurred**, **who initiated them**, and **whether the activity was potentially malicious** :contentReference[oaicite:1]{index=1}.
+SQL queries were used to analyze authentication logs to determine **when the attempts occurred**, **who initiated them**, and **whether the activity was potentially malicious**
 
 ---
 
@@ -72,5 +68,4 @@ To avoid false positives, employees in the **IT department** were excluded from 
 ---
 
 ## 📚 Summary
-The investigation determined that although there was a noticeable increase in after-hours login activity, the behavior was **non-malicious**. The findings informed adjustments to monitoring thresholds to reduce unnecessary alerts while preserving early detection of genuine threats :contentReference[oaicite:2]{index=2}.
-
+The investigation determined that although there was a noticeable increase in after-hours login activity, the behavior was **non-malicious**. The findings informed adjustments to monitoring thresholds to reduce unnecessary alerts while preserving early detection of genuine threats.
